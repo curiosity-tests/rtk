@@ -7,9 +7,6 @@
 # in March 2026 at 51 open PRs, no longer true at current volume.
 name: Manage stale issues and PRs
 on:
-  schedule:
-    # Run weekly
-    - cron: '0 6 * * 1'
   workflow_dispatch:
 
 permissions: {}
